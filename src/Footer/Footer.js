@@ -24,6 +24,14 @@ const Footer = () => {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
+            {/* Transparent overlay link — clicking opens full Google Maps in a new tab */}
+            <a
+              className="map-overlay-link"
+              href="https://www.google.com/maps/place/JS+Beauty+Parlour+and+Boutique/@18.10400098,83.40481157,15z"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Open JS Beauty location in Google Maps"
+            >Open map</a>
           </div>
         </div>
 

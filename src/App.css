@@ -317,6 +317,18 @@ body {
   height: 100%;
   border: 0;
 }
+.map-overlay-link {
+  position: absolute;
+  inset: 0; /* cover entire iframe area */
+  display: block;
+  background: transparent;
+  text-indent: -9999px; /* visually hide text */
+}
+.map-overlay-link:focus {
+  outline: 2px solid var(--gold);
+  text-indent: 0;
+  color: transparent;
+}
 
 .footer .links {
   display: flex;
