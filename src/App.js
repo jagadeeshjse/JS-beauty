@@ -2,7 +2,7 @@ import React from 'react';
 import Home from './Home';
 import Beauty from './Nav bar/Beauty/Beauty';
 import Boutique from './Nav bar/Boutique/Boutique';
-import './App.css';
+import './app.css';
 import NavBar from './Nav bar/NavBar';
 import { Route, Routes } from 'react-router-dom';
 import Footer from './Footer/Footer';
