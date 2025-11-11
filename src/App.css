@@ -6,10 +6,10 @@
 
 :root {
   --bg: #000;
-  --gold: #f1d62e;
+  --gold: #e0c40bea;
   --muted: #75757f;
   --accent: #6d5f8a;
-  --card-bg: #ffd800;
+  --card-bg: #ffd900da;
   --text: #0a0a0a;
   --glass: rgba(255, 255, 255, 0.08);
   --max-width: 1200px;
@@ -165,8 +165,8 @@ body {
   overflow: hidden;
   background: linear-gradient(
     180deg,
-    rgba(255, 216, 0, 0.95),
-    rgba(255, 210, 0, 0.95)
+    rgba(255, 216, 0, 0.85),
+    rgba(255, 210, 0, 0.85)
   );
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.45);
   display: flex;
